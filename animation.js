@@ -213,6 +213,12 @@ const sketch = (p) => {
   /* ── main loop ─────────────────────────────────────────── */
 
   p.draw = () => {
+    let cw = document.getElementById('animation-container').offsetWidth;
+    if (cw !== W) {
+      layout();
+      p.resizeCanvas(W, H);
+    }
+
     p.background(BG);
     frame++;
 
