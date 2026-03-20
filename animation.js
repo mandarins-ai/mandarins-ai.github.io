@@ -2,7 +2,7 @@ const sketch = (p) => {
 
   /* ── constants ─────────────────────────────────────────── */
 
-  const H         = 210;
+  const H         = 170;
   const GROUND    = H - 2;
   const BG        = '#1a1a1a';
   const STROKE    = '#666';
