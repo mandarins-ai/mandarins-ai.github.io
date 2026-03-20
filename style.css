@@ -7,7 +7,7 @@
 body {
   background: #1a1a1a;
   color: #e0e0e0;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'JetBrains Mono', monospace;
   display: flex;
   justify-content: center;
   padding: 120px 24px;
@@ -56,7 +56,7 @@ sup a:hover {
 }
 
 .buttons a {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'JetBrains Mono', monospace;
   font-size: 13px;
   color: #888;
   text-decoration: none;
